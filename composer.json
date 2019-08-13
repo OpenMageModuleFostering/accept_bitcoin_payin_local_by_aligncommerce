@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Accept_Bitcoin_Payin_Local_by_Aligncommerce",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License-(GPL)",
+    "homepage": "",
+    "description": "Accept payments from international buyers via local currency using bank transfers and/or via bitcoin",
+    "authors": [
+    {
+        "name": "Aldo Carrascoso",
+        "email": "tech@aligncommerce.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

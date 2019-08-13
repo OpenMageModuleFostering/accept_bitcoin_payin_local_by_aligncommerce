@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Accept_Bitcoin_Payin_Local_by_Aligncommerce</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license>GNU General Public License (GPL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Accept payments from international buyers via local currency using bank transfers and/or via bitcoin</summary>
+    <description>Accept payments from international buyers via local currency using bank transfers and/or via bitcoin.</description>
+    <notes>Stable Release</notes>
+    <authors><author><name>Aldo Carrascoso</name><user>aligncommerce</user><email>tech@aligncommerce.com</email></author></authors>
+    <date>2014-11-14</date>
+    <time>02:06:26</time>
+    <contents><target name="magelocal"><dir name="Aligncommerce"><dir name="Bitcoin"><dir name="Block"><file name="Bitcoin.php" hash="81f2e23c8eec28b188636c636a0fed20"/></dir><dir name="Helper"><file name="Data.php" hash="b9c0a4a4cdecb70f2dc607e5c20673f0"/></dir><dir name="Model"><file name="Banktransfer.php" hash="094345d405178a68dca9ea5d78cfd17d"/><file name="Btc.php" hash="e5dca03047f72fec6afee607dab3f053"/><dir name="Config"><dir name="Source"><dir name="Payment"><file name="Specificcurrencybanktransfer.php" hash="25dba89050446960fbb7c0fd17c7fea5"/><file name="Specificcurrencybitcoin.php" hash="f6925d7ef4dafc2bba94dd2e53aa2baa"/></dir></dir></dir></dir><dir name="controllers"><file name="IndexController.php" hash="8798028ba8ad9db20f4e86d28a1b5f07"/><file name="IpnController.php" hash="92317848926118072044821ace592fad"/></dir><dir name="etc"><file name="config.xml" hash="6a47213c4235c6e759f4920c606384c5"/><file name="system.xml" hash="824ac678cc6798010c3e01b31d6e1f4c"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Aligncommerce_Bitcoin.xml" hash="e5d3bb510c1585276c9b1998bfa83eff"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>5.5.0</max></php></required></dependencies>
+</package>
